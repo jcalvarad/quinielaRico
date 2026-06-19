@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b6b4f">
+<title>Quiniela Rico · Mundial 2026</title>
+<meta name="description" content="Quiniela familiar del Mundial de Fútbol 2026 — puntos y clasificación calculados automáticamente con los marcadores más recientes.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">
+      <span class="cup">🏆</span>
+      <div>
+        <h1>Quiniela Rico</h1>
+        <p class="sub">Mundial de Fútbol 2026</p>
+      </div>
+    </div>
+    <div class="status">
+      <div class="progress">
+        <span id="playedCount">—</span><span class="muted"> / 72 partidos</span>
+        <div class="bar"><i id="progressBar"></i></div>
+      </div>
+      <button id="refreshBtn" class="refresh" title="Actualizar marcadores">
+        <span class="ico">⟳</span><span class="lbl">Actualizar</span>
+      </button>
+    </div>
+  </div>
+  <div class="wrap updatedline">
+    <span id="updatedAt" class="muted">Cargando marcadores…</span>
+    <button id="shareBtn" class="share">Compartir</button>
+  </div>
+</header>
+
+<nav class="tabs wrap">
+  <button class="tab active" data-view="tabla">🏅 Clasificación</button>
+  <button class="tab" data-view="partidos">⚽ Partidos</button>
+  <button class="tab" data-view="participantes">👤 Participantes</button>
+  <button class="tab" data-view="reglas">📋 Reglas</button>
+</nav>
+
+<main class="wrap">
+  <section id="view-tabla" class="view"></section>
+  <section id="view-partidos" class="view hidden"></section>
+  <section id="view-participantes" class="view hidden"></section>
+  <section id="view-reglas" class="view hidden"></section>
+</main>
+
+<footer class="wrap foot">
+  <p class="muted">Marcadores vía <a href="https://github.com/openfootball/worldcup.json" target="_blank" rel="noopener">openfootball</a> · Los puntos se recalculan solos con cada resultado.</p>
+</footer>
+
+<script src="data/fixtures.js"></script>
+<script src="data/participants.js"></script>
+<script src="data/results.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

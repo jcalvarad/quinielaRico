@@ -1,0 +1,40 @@
+name: Actualizar marcadores
+
+# Refresca data/results.js con los marcadores más recientes del Mundial 2026.
+# Durante el torneo corre cada 30 min; también se puede lanzar a mano.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-results
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Traer marcadores
+        run: node scripts/update-results.mjs
+
+      - name: Commit si hubo cambios
+        run: |
+          if git diff --quiet -- data/results.js; then
+            echo "Sin cambios en los marcadores."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/results.js
+          git commit -m "Actualiza marcadores ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          git push

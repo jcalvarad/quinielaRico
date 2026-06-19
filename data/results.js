@@ -1,0 +1,151 @@
+window.RESULTS = {
+ "updated": "2026-06-19T23:38:21Z",
+ "source": "openfootball/worldcup.json",
+ "matches": {
+  "A-mexico-vs-south-africa": {
+   "h": 2,
+   "a": 0,
+   "status": "FT"
+  },
+  "A-south-korea-vs-czech-republic": {
+   "h": 2,
+   "a": 1,
+   "status": "FT"
+  },
+  "A-czech-republic-vs-south-africa": {
+   "h": 1,
+   "a": 1,
+   "status": "FT"
+  },
+  "A-mexico-vs-south-korea": {
+   "h": 1,
+   "a": 0,
+   "status": "FT"
+  },
+  "B-canada-vs-bosnia-herzegovina": {
+   "h": 1,
+   "a": 1,
+   "status": "FT"
+  },
+  "B-qatar-vs-switzerland": {
+   "h": 1,
+   "a": 1,
+   "status": "FT"
+  },
+  "B-switzerland-vs-bosnia-herzegovina": {
+   "h": 4,
+   "a": 1,
+   "status": "FT"
+  },
+  "B-canada-vs-qatar": {
+   "h": 6,
+   "a": 0,
+   "status": "FT"
+  },
+  "C-brazil-vs-morocco": {
+   "h": 1,
+   "a": 1,
+   "status": "FT"
+  },
+  "C-haiti-vs-scotland": {
+   "h": 0,
+   "a": 1,
+   "status": "FT"
+  },
+  "B-usa-vs-paraguay": {
+   "h": 4,
+   "a": 1,
+   "status": "FT"
+  },
+  "D-australia-vs-turkey": {
+   "h": 2,
+   "a": 0,
+   "status": "FT"
+  },
+  "D-usa-vs-australia": {
+   "h": 2,
+   "a": 0,
+   "status": "FT"
+  },
+  "E-germany-vs-curacao": {
+   "h": 7,
+   "a": 1,
+   "status": "FT"
+  },
+  "E-ivory-coast-vs-ecuador": {
+   "h": 1,
+   "a": 0,
+   "status": "FT"
+  },
+  "F-netherlands-vs-japan": {
+   "h": 2,
+   "a": 2,
+   "status": "FT"
+  },
+  "F-sweden-vs-tunisia": {
+   "h": 5,
+   "a": 1,
+   "status": "FT"
+  },
+  "G-belgium-vs-egypt": {
+   "h": 1,
+   "a": 1,
+   "status": "FT"
+  },
+  "G-iran-vs-new-zealand": {
+   "h": 2,
+   "a": 2,
+   "status": "FT"
+  },
+  "H-spain-vs-cape-verde": {
+   "h": 0,
+   "a": 0,
+   "status": "FT"
+  },
+  "H-saudi-arabia-vs-uruguay": {
+   "h": 1,
+   "a": 1,
+   "status": "FT"
+  },
+  "I-france-vs-senegal": {
+   "h": 3,
+   "a": 1,
+   "status": "FT"
+  },
+  "I-iraq-vs-norway": {
+   "h": 1,
+   "a": 4,
+   "status": "FT"
+  },
+  "J-argentina-vs-algeria": {
+   "h": 3,
+   "a": 0,
+   "status": "FT"
+  },
+  "J-austria-vs-jordan": {
+   "h": 3,
+   "a": 1,
+   "status": "FT"
+  },
+  "K-portugal-vs-dr-congo": {
+   "h": 1,
+   "a": 1,
+   "status": "FT"
+  },
+  "K-uzbekistan-vs-colombia": {
+   "h": 1,
+   "a": 3,
+   "status": "FT"
+  },
+  "L-england-vs-croatia": {
+   "h": 4,
+   "a": 2,
+   "status": "FT"
+  },
+  "L-ghana-vs-panama": {
+   "h": 1,
+   "a": 0,
+   "status": "FT"
+  }
+ }
+};
