@@ -104,16 +104,28 @@ assert len(ref)==72, f"esperaba 72 fixtures, obtuve {len(ref)}"
 # --- openfootball: resultados/fechas reales -----------------------------------
 of=json.load(open(OF_JSON))
 of_group=[m for m in of["matches"] if str(m.get("group","")).startswith("Group")]
-of_index={}   # frozenset(home,away) -> match
+of_index={}      # frozenset(home,away) -> match
+team_group={}    # equipo EN -> letra de grupo REAL (autoritativa)
 for m in of_group:
     of_index[frozenset((m["team1"],m["team2"]))]=m
+    L=m["group"].replace("Group ","").strip()
+    team_group[m["team1"]]=L; team_group[m["team2"]]=L
+
+# El PDF a veces trae mal la letra del grupo (p.ej. la 3a jornada de J/K/L
+# aparece como G/H/I). Tomamos el grupo real por membresia de equipos.
+def real_group(home_en, away_en):
+    g1=team_group.get(home_en); g2=team_group.get(away_en)
+    assert g1==g2, f"equipos de distinto grupo: {home_en} ({g1}) vs {away_en} ({g2})"
+    return g1
 
 fixtures=[]; results={}
-unmatched=[]
-for g,a_es,b_es,_,_,_ in ref:
+unmatched=[]; relabeled=0
+for g_pdf,a_es,b_es,_,_,_ in ref:
     ha=en(a_es); aw=en(b_es)
     key=frozenset((ha,aw))
     m=of_index.get(key)
+    g=real_group(ha,aw)
+    if g!=g_pdf: relabeled+=1
     i=mid(g,ha,aw)
     fx={"id":i,"group":g,
         "homeEN":ha,"awayEN":aw,
@@ -133,6 +145,7 @@ for g,a_es,b_es,_,_,_ in ref:
 
 if unmatched:
     print("SIN EMPAREJAR:",unmatched); sys.exit(1)
+print(f"Grupos corregidos respecto al PDF: {relabeled}")
 
 # --- participantes ------------------------------------------------------------
 participants=[]
@@ -140,8 +153,9 @@ for b in blocks:
     preds={}
     pl=[parse_line(l) for l in b["lines"]]; pl=[p for p in pl if p]
     assert len(pl)==72, f"{b['name']}: {len(pl)} predicciones"
-    for g,a_es,b_es,pick,ph,pa in pl:
-        i=mid(g,en(a_es),en(b_es))
+    for g_pdf,a_es,b_es,pick,ph,pa in pl:
+        ha=en(a_es); aw=en(b_es)
+        i=mid(real_group(ha,aw),ha,aw)
         preds[i]={"pick":pick,"ph":ph,"pa":pa}
     participants.append({"name":b["name"],"preds":preds})
 

@@ -17,7 +17,7 @@ window.PARTICIPANTS = [
     "ph": 1,
     "pa": 1
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "L",
     "ph": 2,
     "pa": 1
@@ -332,32 +332,32 @@ window.PARTICIPANTS = [
     "ph": 0,
     "pa": 2
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 0,
     "pa": 3
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "L",
     "ph": 1,
     "pa": 0
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "V",
     "ph": 1,
     "pa": 3
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "E",
     "ph": 1,
     "pa": 1
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "V",
     "ph": 0,
     "pa": 1
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 0,
     "pa": 3
@@ -382,7 +382,7 @@ window.PARTICIPANTS = [
     "ph": 2,
     "pa": 1
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "L",
     "ph": 2,
     "pa": 1
@@ -697,32 +697,32 @@ window.PARTICIPANTS = [
     "ph": 1,
     "pa": 1
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 1,
     "pa": 3
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "L",
     "ph": 2,
     "pa": 1
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "E",
     "ph": 2,
     "pa": 2
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "L",
     "ph": 2,
     "pa": 1
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "V",
     "ph": 1,
     "pa": 2
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 1,
     "pa": 3
@@ -747,7 +747,7 @@ window.PARTICIPANTS = [
     "ph": 2,
     "pa": 1
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "V",
     "ph": 0,
     "pa": 2
@@ -1062,32 +1062,32 @@ window.PARTICIPANTS = [
     "ph": 0,
     "pa": 2
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 1,
     "pa": 3
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "L",
     "ph": 3,
     "pa": 1
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "E",
     "ph": 1,
     "pa": 1
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "V",
     "ph": 0,
     "pa": 1
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "E",
     "ph": 1,
     "pa": 1
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 1,
     "pa": 2
@@ -1112,7 +1112,7 @@ window.PARTICIPANTS = [
     "ph": 1,
     "pa": 0
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "E",
     "ph": 2,
     "pa": 2
@@ -1427,32 +1427,32 @@ window.PARTICIPANTS = [
     "ph": 0,
     "pa": 3
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 1,
     "pa": 4
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "L",
     "ph": 2,
     "pa": 1
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "E",
     "ph": 2,
     "pa": 2
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "E",
     "ph": 1,
     "pa": 1
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "E",
     "ph": 3,
     "pa": 3
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 0,
     "pa": 5
@@ -1477,7 +1477,7 @@ window.PARTICIPANTS = [
     "ph": 1,
     "pa": 0
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "L",
     "ph": 2,
     "pa": 1
@@ -1792,32 +1792,32 @@ window.PARTICIPANTS = [
     "ph": 0,
     "pa": 2
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 0,
     "pa": 2
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "E",
     "ph": 1,
     "pa": 1
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "V",
     "ph": 0,
     "pa": 1
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "L",
     "ph": 1,
     "pa": 0
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "V",
     "ph": 0,
     "pa": 2
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 0,
     "pa": 2
@@ -1842,7 +1842,7 @@ window.PARTICIPANTS = [
     "ph": 2,
     "pa": 1
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "L",
     "ph": 2,
     "pa": 0
@@ -2157,32 +2157,32 @@ window.PARTICIPANTS = [
     "ph": 0,
     "pa": 3
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 0,
     "pa": 3
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "L",
     "ph": 2,
     "pa": 0
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "E",
     "ph": 1,
     "pa": 1
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "V",
     "ph": 1,
     "pa": 2
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "V",
     "ph": 1,
     "pa": 2
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 0,
     "pa": 4
@@ -2207,7 +2207,7 @@ window.PARTICIPANTS = [
     "ph": 2,
     "pa": 0
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "L",
     "ph": 2,
     "pa": 1
@@ -2522,32 +2522,32 @@ window.PARTICIPANTS = [
     "ph": 1,
     "pa": 2
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 0,
     "pa": 3
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "L",
     "ph": 2,
     "pa": 1
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "V",
     "ph": 1,
     "pa": 2
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "L",
     "ph": 1,
     "pa": 0
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "V",
     "ph": 0,
     "pa": 1
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 0,
     "pa": 2
@@ -2572,7 +2572,7 @@ window.PARTICIPANTS = [
     "ph": 1,
     "pa": 2
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "L",
     "ph": 3,
     "pa": 1
@@ -2887,32 +2887,32 @@ window.PARTICIPANTS = [
     "ph": 1,
     "pa": 3
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 1,
     "pa": 2
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "E",
     "ph": 1,
     "pa": 1
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "V",
     "ph": 2,
     "pa": 4
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "V",
     "ph": 0,
     "pa": 2
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "V",
     "ph": 1,
     "pa": 2
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 1,
     "pa": 3
@@ -2937,7 +2937,7 @@ window.PARTICIPANTS = [
     "ph": 2,
     "pa": 1
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "L",
     "ph": 2,
     "pa": 0
@@ -3252,32 +3252,32 @@ window.PARTICIPANTS = [
     "ph": 1,
     "pa": 2
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 0,
     "pa": 2
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "L",
     "ph": 2,
     "pa": 0
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "V",
     "ph": 0,
     "pa": 3
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "E",
     "ph": 1,
     "pa": 1
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "V",
     "ph": 0,
     "pa": 1
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 1,
     "pa": 3
@@ -3302,7 +3302,7 @@ window.PARTICIPANTS = [
     "ph": 2,
     "pa": 1
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "L",
     "ph": 2,
     "pa": 1
@@ -3617,32 +3617,32 @@ window.PARTICIPANTS = [
     "ph": 0,
     "pa": 3
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 0,
     "pa": 3
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "L",
     "ph": 2,
     "pa": 1
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "E",
     "ph": 1,
     "pa": 1
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "V",
     "ph": 1,
     "pa": 2
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "E",
     "ph": 1,
     "pa": 1
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 0,
     "pa": 3
@@ -3667,7 +3667,7 @@ window.PARTICIPANTS = [
     "ph": 1,
     "pa": 0
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "L",
     "ph": 3,
     "pa": 1
@@ -3982,32 +3982,32 @@ window.PARTICIPANTS = [
     "ph": 1,
     "pa": 3
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 0,
     "pa": 1
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "V",
     "ph": 1,
     "pa": 2
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "V",
     "ph": 0,
     "pa": 2
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "L",
     "ph": 1,
     "pa": 0
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "V",
     "ph": 1,
     "pa": 2
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 0,
     "pa": 2
@@ -4032,7 +4032,7 @@ window.PARTICIPANTS = [
     "ph": 2,
     "pa": 1
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "V",
     "ph": 1,
     "pa": 2
@@ -4347,32 +4347,32 @@ window.PARTICIPANTS = [
     "ph": 1,
     "pa": 3
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 0,
     "pa": 4
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "L",
     "ph": 4,
     "pa": 1
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "V",
     "ph": 1,
     "pa": 3
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "L",
     "ph": 1,
     "pa": 0
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "V",
     "ph": 1,
     "pa": 2
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 0,
     "pa": 5
@@ -4397,7 +4397,7 @@ window.PARTICIPANTS = [
     "ph": 3,
     "pa": 2
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "E",
     "ph": 1,
     "pa": 1
@@ -4712,32 +4712,32 @@ window.PARTICIPANTS = [
     "ph": 0,
     "pa": 3
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 1,
     "pa": 3
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "E",
     "ph": 1,
     "pa": 1
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "V",
     "ph": 1,
     "pa": 3
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "E",
     "ph": 3,
     "pa": 3
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "V",
     "ph": 1,
     "pa": 2
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 0,
     "pa": 5
@@ -4762,7 +4762,7 @@ window.PARTICIPANTS = [
     "ph": 1,
     "pa": 0
    },
-   "B-usa-vs-paraguay": {
+   "D-usa-vs-paraguay": {
     "pick": "L",
     "ph": 3,
     "pa": 1
@@ -5077,32 +5077,32 @@ window.PARTICIPANTS = [
     "ph": 2,
     "pa": 3
    },
-   "I-panama-vs-england": {
+   "L-panama-vs-england": {
     "pick": "V",
     "ph": 1,
     "pa": 3
    },
-   "I-croatia-vs-ghana": {
+   "L-croatia-vs-ghana": {
     "pick": "L",
     "ph": 1,
     "pa": 0
    },
-   "H-colombia-vs-portugal": {
+   "K-colombia-vs-portugal": {
     "pick": "V",
     "ph": 1,
     "pa": 4
    },
-   "H-dr-congo-vs-uzbekistan": {
+   "K-dr-congo-vs-uzbekistan": {
     "pick": "V",
     "ph": 0,
     "pa": 1
    },
-   "G-algeria-vs-austria": {
+   "J-algeria-vs-austria": {
     "pick": "V",
     "ph": 2,
     "pa": 4
    },
-   "G-jordan-vs-argentina": {
+   "J-jordan-vs-argentina": {
     "pick": "V",
     "ph": 1,
     "pa": 3

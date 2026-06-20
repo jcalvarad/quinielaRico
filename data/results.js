@@ -1,5 +1,5 @@
 window.RESULTS = {
- "updated": "2026-06-19T23:38:21Z",
+ "updated": "2026-06-20T02:41:02Z",
  "source": "openfootball/worldcup.json",
  "matches": {
   "A-mexico-vs-south-africa": {
@@ -52,7 +52,17 @@ window.RESULTS = {
    "a": 1,
    "status": "FT"
   },
-  "B-usa-vs-paraguay": {
+  "C-scotland-vs-morocco": {
+   "h": 0,
+   "a": 1,
+   "status": "FT"
+  },
+  "C-brazil-vs-haiti": {
+   "h": 3,
+   "a": 0,
+   "status": "FT"
+  },
+  "D-usa-vs-paraguay": {
    "h": 4,
    "a": 1,
    "status": "FT"

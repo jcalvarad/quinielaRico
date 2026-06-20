@@ -39,8 +39,8 @@ window.FIXTURES = [
   "ground": "Toronto"
  },
  {
-  "id": "B-usa-vs-paraguay",
-  "group": "B",
+  "id": "D-usa-vs-paraguay",
+  "group": "D",
   "homeEN": "USA",
   "awayEN": "Paraguay",
   "homeES": "Estados Unidos",
@@ -858,8 +858,8 @@ window.FIXTURES = [
   "ground": "Vancouver"
  },
  {
-  "id": "I-panama-vs-england",
-  "group": "I",
+  "id": "L-panama-vs-england",
+  "group": "L",
   "homeEN": "Panama",
   "awayEN": "England",
   "homeES": "Panamá",
@@ -871,8 +871,8 @@ window.FIXTURES = [
   "ground": "New York/New Jersey (East Rutherford)"
  },
  {
-  "id": "I-croatia-vs-ghana",
-  "group": "I",
+  "id": "L-croatia-vs-ghana",
+  "group": "L",
   "homeEN": "Croatia",
   "awayEN": "Ghana",
   "homeES": "Croacia",
@@ -884,8 +884,8 @@ window.FIXTURES = [
   "ground": "Philadelphia"
  },
  {
-  "id": "H-colombia-vs-portugal",
-  "group": "H",
+  "id": "K-colombia-vs-portugal",
+  "group": "K",
   "homeEN": "Colombia",
   "awayEN": "Portugal",
   "homeES": "Colombia",
@@ -897,8 +897,8 @@ window.FIXTURES = [
   "ground": "Miami (Miami Gardens)"
  },
  {
-  "id": "H-dr-congo-vs-uzbekistan",
-  "group": "H",
+  "id": "K-dr-congo-vs-uzbekistan",
+  "group": "K",
   "homeEN": "DR Congo",
   "awayEN": "Uzbekistan",
   "homeES": "RD Congo",
@@ -910,8 +910,8 @@ window.FIXTURES = [
   "ground": "Atlanta"
  },
  {
-  "id": "G-algeria-vs-austria",
-  "group": "G",
+  "id": "J-algeria-vs-austria",
+  "group": "J",
   "homeEN": "Algeria",
   "awayEN": "Austria",
   "homeES": "Argelia",
@@ -923,8 +923,8 @@ window.FIXTURES = [
   "ground": "Kansas City"
  },
  {
-  "id": "G-jordan-vs-argentina",
-  "group": "G",
+  "id": "J-jordan-vs-argentina",
+  "group": "J",
   "homeEN": "Jordan",
   "awayEN": "Argentina",
   "homeES": "Jordania",
