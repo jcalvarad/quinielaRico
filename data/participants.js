@@ -5108,5 +5108,370 @@ window.PARTICIPANTS = [
     "pa": 3
    }
   }
+ },
+ {
+  "name": "LORENA Y FABIÁN",
+  "preds": {
+   "A-mexico-vs-south-africa": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 0
+   },
+   "A-south-korea-vs-czech-republic": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 2
+   },
+   "B-canada-vs-bosnia-herzegovina": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "D-usa-vs-paraguay": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "B-qatar-vs-switzerland": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 2
+   },
+   "C-brazil-vs-morocco": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 1
+   },
+   "C-haiti-vs-scotland": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 2
+   },
+   "D-australia-vs-turkey": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 2
+   },
+   "E-germany-vs-curacao": {
+    "pick": "L",
+    "ph": 4,
+    "pa": 0
+   },
+   "F-netherlands-vs-japan": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "E-ivory-coast-vs-ecuador": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "F-sweden-vs-tunisia": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "H-spain-vs-cape-verde": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "G-belgium-vs-egypt": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 0
+   },
+   "H-saudi-arabia-vs-uruguay": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 2
+   },
+   "G-iran-vs-new-zealand": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "I-france-vs-senegal": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "I-iraq-vs-norway": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 2
+   },
+   "J-argentina-vs-algeria": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "J-austria-vs-jordan": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 2
+   },
+   "K-portugal-vs-dr-congo": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "L-england-vs-croatia": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "L-ghana-vs-panama": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 2
+   },
+   "K-uzbekistan-vs-colombia": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 2
+   },
+   "A-czech-republic-vs-south-africa": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "B-switzerland-vs-bosnia-herzegovina": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 0
+   },
+   "B-canada-vs-qatar": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "A-mexico-vs-south-korea": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "D-usa-vs-australia": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "C-scotland-vs-morocco": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 2
+   },
+   "C-brazil-vs-haiti": {
+    "pick": "L",
+    "ph": 4,
+    "pa": 0
+   },
+   "D-turkey-vs-paraguay": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "F-netherlands-vs-sweden": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "E-germany-vs-ivory-coast": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "E-ecuador-vs-curacao": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "F-tunisia-vs-japan": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 2
+   },
+   "H-spain-vs-saudi-arabia": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "G-belgium-vs-iran": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 0
+   },
+   "H-uruguay-vs-cape-verde": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "G-new-zealand-vs-egypt": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 2
+   },
+   "J-argentina-vs-austria": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "I-france-vs-iraq": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "I-norway-vs-senegal": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "J-jordan-vs-algeria": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 2
+   },
+   "K-portugal-vs-uzbekistan": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "L-england-vs-ghana": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "L-panama-vs-croatia": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 3
+   },
+   "K-colombia-vs-dr-congo": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "B-switzerland-vs-canada": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "B-bosnia-herzegovina-vs-qatar": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 2
+   },
+   "C-scotland-vs-brazil": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 3
+   },
+   "C-morocco-vs-haiti": {
+    "pick": "L",
+    "ph": 3,
+    "pa": 0
+   },
+   "A-czech-republic-vs-mexico": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 2
+   },
+   "A-south-africa-vs-south-korea": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 2
+   },
+   "E-curacao-vs-ivory-coast": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 3
+   },
+   "E-ecuador-vs-germany": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 2
+   },
+   "F-japan-vs-sweden": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "F-tunisia-vs-netherlands": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 3
+   },
+   "D-turkey-vs-usa": {
+    "pick": "E",
+    "ph": 1,
+    "pa": 1
+   },
+   "D-paraguay-vs-australia": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 2
+   },
+   "I-norway-vs-france": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 3
+   },
+   "I-senegal-vs-iraq": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 0
+   },
+   "H-cape-verde-vs-saudi-arabia": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 2
+   },
+   "H-uruguay-vs-spain": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 2
+   },
+   "G-egypt-vs-iran": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 1
+   },
+   "G-new-zealand-vs-belgium": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 3
+   },
+   "L-panama-vs-england": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 3
+   },
+   "L-croatia-vs-ghana": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 0
+   },
+   "K-colombia-vs-portugal": {
+    "pick": "V",
+    "ph": 1,
+    "pa": 3
+   },
+   "K-dr-congo-vs-uzbekistan": {
+    "pick": "L",
+    "ph": 2,
+    "pa": 0
+   },
+   "J-algeria-vs-austria": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 2
+   },
+   "J-jordan-vs-argentina": {
+    "pick": "V",
+    "ph": 0,
+    "pa": 3
+   }
+  }
  }
 ];

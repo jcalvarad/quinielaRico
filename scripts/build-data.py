@@ -1,13 +1,27 @@
 #!/usr/bin/env python3
-"""Construye los archivos de datos de la quiniela a partir del texto del PDF
-(extraido con `pdftotext -layout`) y del dataset openfootball (fechas/sedes reales).
-Genera: data/fixtures.js, data/participants.js, data/results.js
-Reejecutar tras editar el PDF fuente.  No es necesario para el sitio en runtime."""
-import re, json, sys, unicodedata, datetime, os
+"""Construye los archivos de datos de la quiniela.
 
-PDF_TXT = sys.argv[1] if len(sys.argv) > 1 else "/tmp/quiniela.txt"
+Fuentes (en scripts/sources/):
+  - quiniela_pdf.txt : el PDF original convertido con `pdftotext -layout` (14 participantes).
+  - *.xlsx           : quinielas adicionales en Excel (un participante por archivo).
+Combinado con el dataset openfootball (fechas/sedes/marcadores reales).
+
+Genera: data/fixtures.js, data/participants.js, data/results.js
+Reejecutar tras agregar/editar una quiniela.  No es necesario para el sitio en runtime.
+
+Requiere: openpyxl (solo si hay archivos .xlsx)."""
+import re, json, sys, unicodedata, datetime, os, glob
+
+HERE = os.path.dirname(__file__)
+SOURCES = os.path.join(HERE, "sources")
+PDF_TXT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(SOURCES, "quiniela_pdf.txt")
 OF_JSON = sys.argv[2] if len(sys.argv) > 2 else "/tmp/of2026.json"
-OUT = os.path.join(os.path.dirname(__file__), "..", "data")
+OUT = os.path.join(HERE, "..", "data")
+
+# Nombre del participante por archivo Excel (la celda del nombre suele venir vacía)
+EXCEL_NAMES = {
+    "Quiniela_FamRico_2026_Lorena_Fabian.xlsx": "LORENA Y FABIÁN",
+}
 
 # --- Registro de equipos: clave canonica EN (openfootball) -> display ES + bandera
 TEAMS = {
@@ -158,6 +172,51 @@ for b in blocks:
         i=mid(real_group(ha,aw),ha,aw)
         preds[i]={"pick":pick,"ph":ph,"pa":pa}
     participants.append({"name":b["name"],"preds":preds})
+
+# --- participantes en Excel (.xlsx, uno por archivo) --------------------------
+# El Excel sigue el mismo orden de calendario que los fixtures, así que mapeamos
+# por POSICIÓN (fila i -> partido i). Esto corrige automáticamente la orientación
+# local/visitante y tolera errores de captura en el nombre del partido.
+SWAP={"L":"V","V":"L","E":"E"}
+def parse_excel(path, fixtures):
+    import openpyxl
+    wb=openpyxl.load_workbook(path, data_only=True)
+    raw=[]
+    for ws in wb.worksheets:
+        for r in range(1, ws.max_row+1):
+            g=ws.cell(row=r,column=3).value           # C: grupo
+            partido=ws.cell(row=r,column=4).value      # D: "EQUIPO - EQUIPO"
+            if not g or not partido: continue
+            if not re.fullmatch(r"[A-L]", str(g).strip()): continue
+            if " - " not in partido and " . " not in partido: continue
+            cells=[ws.cell(row=r,column=c).value for c in (5,6,7)]   # E/F/G = L/E/V
+            picks=[k for k,v in zip("LEV",cells) if v and str(v).strip().upper()=="X"]
+            pick=picks[0] if len(picks)==1 else None
+            nums=re.findall(r"\d+", str(ws.cell(row=r,column=9).value or ""))  # I: "2-0"
+            ph,pa=(int(nums[0]),int(nums[1])) if len(nums)>=2 else (None,None)
+            a_es,b_es=re.split(r"\s+[-\.]\s+", partido.strip(), maxsplit=1)
+            raw.append((a_es,b_es,pick,ph,pa))
+    assert len(raw)==72, f"{os.path.basename(path)}: {len(raw)} predicciones (esperaba 72)"
+    preds={}; mism=[]
+    for i,(a_es,b_es,pick,ph,pa) in enumerate(raw):
+        f=fixtures[i]
+        ha=en(a_es)
+        if frozenset((ha,en(b_es)))!=frozenset((f["homeEN"],f["awayEN"])):
+            mism.append((i,f"{a_es} - {b_es}",f["id"]))
+        if ha==f["awayEN"]:                 # el Excel trae local/visitante invertido
+            pick=SWAP.get(pick,pick); ph,pa=pa,ph
+        preds[f["id"]]={"pick":pick,"ph":ph,"pa":pa}
+    assert 72-len(mism)>=70, f"{os.path.basename(path)}: el orden no alinea ({len(mism)} desajustes)"
+    return preds, mism
+
+for xlsx in sorted(glob.glob(os.path.join(SOURCES,"*.xlsx"))):
+    fname=os.path.basename(xlsx)
+    name=EXCEL_NAMES.get(fname) or re.sub(r"\.xlsx$","",fname).split("_")[-1].upper()
+    preds,mism=parse_excel(xlsx, fixtures)
+    participants.append({"name":name,"preds":preds})
+    print(f"Excel agregado: {name} <- {fname}")
+    for i,txt,fid in mism:
+        print(f"   nota: fila {i} del Excel decía '{txt}'; se asignó al partido {fid} por posición")
 
 # --- escribir archivos --------------------------------------------------------
 os.makedirs(OUT,exist_ok=True)

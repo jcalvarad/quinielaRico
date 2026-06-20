@@ -39,7 +39,8 @@ Para probar en tu compu sin publicar, simplemente abre `index.html` en el navega
 > resultado), cambia las constantes al inicio de [`assets/app.js`](assets/app.js):
 > `PTS_RESULTADO` y `PTS_MARCADOR`.
 
-Premios: bolsa de `14 × $300 = $4,200` → 🥇 $2,520 · 🥈 $1,260 · 🥉 $420.
+Premios: bolsa de `15 × $300 = $4,500` → 🥇 $2,700 · 🥈 $1,350 · 🥉 $450.
+(Se recalcula sola según el número de participantes.)
 
 ## 🔄 Actualización automática de marcadores
 
@@ -73,15 +74,26 @@ Todo vive en archivos legibles dentro de [`data/`](data/):
   "L-england-vs-croatia": { "h": 2, "a": 1, "status": "FT" },
   ```
 
-## 🛠️ Regenerar los datos desde el PDF
+## 🛠️ Agregar una quiniela o regenerar los datos
 
-Si cambian las predicciones, vuelve a generar los archivos con el script de
-construcción (requiere `pdftotext` de poppler-utils y Python 3):
+Las quinielas viven en `scripts/sources/`:
+
+- **`quiniela_pdf.txt`** — el PDF original (14 participantes) convertido con
+  `pdftotext -layout`.
+- **`*.xlsx`** — una quiniela adicional por archivo de Excel (mismo formato que
+  el Excel de Lorena y Fabián). El nombre se toma de `EXCEL_NAMES` dentro del
+  script (o del nombre del archivo).
+
+Para **agregar otra quiniela**: copia su `.xlsx` a `scripts/sources/`, añade su
+nombre en `EXCEL_NAMES` si hace falta, y regenera:
 
 ```bash
-pdftotext -layout QUINIELA_2026_RICO_TODAS.pdf quiniela.txt
-python3 scripts/build-data.py quiniela.txt
+python3 scripts/build-data.py        # requiere Python 3 + openpyxl
 ```
+
+Las predicciones del Excel se mapean **por posición de calendario**, así que se
+corrige sola la orientación local/visitante (y errores de captura en el nombre
+del partido, que el script reporta).
 
 ## 📁 Estructura
 
@@ -90,9 +102,10 @@ index.html                      Página principal
 assets/styles.css               Estilos (mobile-first)
 assets/app.js                   Lógica: puntos, vistas y actualización en vivo
 data/fixtures.js                72 partidos del Mundial
-data/participants.js            14 participantes y sus predicciones
+data/participants.js            15 participantes y sus predicciones
 data/results.js                 Marcadores reales (se actualiza solo)
-scripts/build-data.py           Reconstruye los datos desde el PDF
+scripts/sources/                Quinielas originales (PDF en texto + Excel)
+scripts/build-data.py           Reconstruye los datos desde las fuentes
 scripts/update-results.mjs      Trae marcadores (lo usa la GitHub Action)
 .github/workflows/              Actualización programada cada 30 min
 ```
