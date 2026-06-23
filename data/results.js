@@ -1,5 +1,5 @@
 window.RESULTS = {
- "updated": "2026-06-23T01:30:08Z",
+ "updated": "2026-06-23T05:48:07Z",
  "source": "openfootball/worldcup.json",
  "matches": {
   "A-mexico-vs-south-africa": {
@@ -172,6 +172,16 @@ window.RESULTS = {
    "a": 4,
    "status": "FT"
   },
+  "I-france-vs-iraq": {
+   "h": 3,
+   "a": 0,
+   "status": "FT"
+  },
+  "I-norway-vs-senegal": {
+   "h": 3,
+   "a": 2,
+   "status": "FT"
+  },
   "J-argentina-vs-algeria": {
    "h": 3,
    "a": 0,
@@ -185,6 +195,11 @@ window.RESULTS = {
   "J-argentina-vs-austria": {
    "h": 2,
    "a": 0,
+   "status": "FT"
+  },
+  "J-jordan-vs-algeria": {
+   "h": 1,
+   "a": 2,
    "status": "FT"
   },
   "K-portugal-vs-dr-congo": {
