@@ -1,5 +1,5 @@
 window.RESULTS = {
- "updated": "2026-06-25T23:52:03Z",
+ "updated": "2026-06-26T03:31:08Z",
  "source": "openfootball/worldcup.json",
  "matches": {
   "A-mexico-vs-south-africa": {
@@ -160,6 +160,16 @@ window.RESULTS = {
   "F-tunisia-vs-japan": {
    "h": 0,
    "a": 4,
+   "status": "FT"
+  },
+  "F-japan-vs-sweden": {
+   "h": 1,
+   "a": 1,
+   "status": "FT"
+  },
+  "F-tunisia-vs-netherlands": {
+   "h": 1,
+   "a": 3,
    "status": "FT"
   },
   "G-belgium-vs-egypt": {
