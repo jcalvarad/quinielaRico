@@ -1,5 +1,5 @@
 window.RESULTS = {
- "updated": "2026-10-09T15:30:59Z",
+ "updated": "2026-10-09T20:32:23Z",
  "source": "openfootball/worldcup.json",
  "matches": {
   "A-mexico-vs-south-africa": {
